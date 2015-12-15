@@ -2,126 +2,63 @@
 <html>
 
 <head>
-	<title>Bootstrap Layouts</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>The Real House Bitch</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"/>
 
 </head>
 
 <body>
+	<div>
+		<div class="em"></div>
 
-	<header class="navbar-inverse" role="banner">
-		<div class="container">
-			<nav role="navigation">
-				
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="http://therealhousebitch.tk/">Bitch</a>
-				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="#">About</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="https://i.ytimg.com/vi/Phsg8fiTiak/hqdefault.jpg">Rattus</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Candidates <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Kingy</a></li>
-								<li><a href="#">Stevo</a></li>
-								<li><a href="#">Dizz</a></li>
-								<li><a href="#">Louie</a></li>
-								<li><a href="#">Stan</a></li>
-								<li><a href="#">Marty</a></li>
-								<li><a href="#">Lachy</a></li>
-							</ul>
-						</li>
-					</ul>
-
-					
-				</div><!-- /.navbar-collapse -->
-			</nav>
+		<div class="titlebar">
+			<h1>The Real House Bitch</h1>
 		</div>
-	</header>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 col-xs-12">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Panel 1</h3>
-					</div>
-					<div class="panel-body">
-						Panel content
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3 col-xs-6">
-				<div class="panel panel-primary">
-					<div class="panel-heading">
-						<h3 class="panel-title">Panel 2</h3>
-					</div>
-					<div class="panel-body">
-						Panel content
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3 col-xs-6">
-				<div class="panel panel-danger">
-					<div class="panel-heading">
-						<h3 class="panel-title">Panel 2</h3>
-					</div>
-					<div class="panel-body">
-						Panel content
-					</div>
-				</div>
-			</div>
+		<div id="player_list">
+			<ul>
+				<li class="player_entry"><a href="#"></a>Stan</li>
+				<li class="player_entry"><a href="#"></a>Louie</li>
+				<li class="player_entry"><a href="#"></a>Kingy</li>
+				<li class="player_entry"><a href="#"></a>Stevo</li>
+				<li class="player_entry"><a href="#"></a>Dizz</li>
+				<li class="player_entry"><a href="#"></a>Marty</li>
+				<li class="player_entry"><a href="#"></a>Lachy</li>
+			</ul>
 		</div>
 	</div>
 
-	<div class="myPanel">
-		<div class="header">my header</div>
-		<div class="body">
-			<p>my body</p>
-			<div class="showOnHover"><a href="#" class="btn btn-xs btn-danger">Delete</a>
-			</div>
-		</div>
+	<div class="option_bar">
+		<ul>
+			<li  class="menu_entry" ><a href="#"></a>RaveCave</li>
+			<li  class="menu_entry" onmouseover="document.getElementById('player_list').style.opacity = '1'; document.getElementById('player_list').style.transition = 'all 0.6s'; " onmouseout="document.getElementById('player_list').style.opacity = '0'; document.getElementById('player_list').style.transition = 'all 5s';"><a href="#"></a>Players</li>
+			<li  class="menu_entry" onmouseover="document.getElementById('rattus_image').style.opacity = '0.15'; document.getElementById('rattus_image').style.transition = 'all 1.5s'; " onmouseout="document.getElementById('rattus_image').style.opacity = '0';" ><a href="#"></a>Rattus</li>
+		</ul>
 	</div>
-	<div class="myPanel">
-		<div class="header">my header</div>
-		<div class="body">
-			<p>my body</p>
-			<div class="showOnHover"><a href="#" class="btn btn-xs btn-danger">Delete</a>
-			</div>
-		</div>
+
+	<div id="rattus_image">
+		<img src="css/images/originalrattus.png";>
 	</div>
-	<div class="myPanel">
-		<div class="header">my header</div>
-		<div class="body">
-			<p>my body</p>
-			<div class="showOnHover"><a href="#" class="btn btn-xs btn-danger">Delete</a>
-			</div>
-		</div>
+
+	<div class="proceedbar">
+		
+		<img src="https://s-media-cache-ak0.pinimg.com/236x/b8/08/84/b808846ad741b85f1a7e8efba6af6deb.jpg" width="50%";>
 	</div>
+
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
+	
 
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
