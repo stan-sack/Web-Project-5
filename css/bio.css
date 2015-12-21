@@ -1,0 +1,220 @@
+
+html, body{
+	height: 100vh;
+	width: 100vw;
+	
+}
+
+.profile_picture{
+	float: right;
+	display: inline-block;
+	padding-right: 0px;
+	height: 100%;
+
+
+	-moz-animation-name: slideProfilePic;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+
+
+	-webkit-animation-name: slideProfilePic;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+
+
+	animation-name: slideProfilePic;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+}
+
+@-moz-keyframes slideProfilePic {
+	0% {
+		-moz-transform: translateX(500px);
+	}
+	100% {
+		-moz-transform: translateX(0px);
+	}
+}
+@-webkit-keyframes slideProfilePic {
+	0% {
+		-webkit-transform: translateX(500px);
+	}
+	100% {
+		-webkit-transform: translateX(0px);
+	}
+}
+@keyframes slideProfilePic {
+	0% {
+		transform: translateX(500px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+
+
+img{
+	height:100%
+}
+
+.name_section{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	width: 60%;
+	padding: 100px 10px 10px 10px;
+	text-align: center;
+
+	-moz-animation-name: slideInfo;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+
+
+	-webkit-animation-name: slideInfo;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	
+
+	animation-name: slideInfo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+	
+}
+
+@-moz-keyframes slideInfo {
+	0% {
+		-moz-transform: translateY(-100px);
+	}
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+@-webkit-keyframes slideInfo {
+	0% {
+		-webkit-transform: translateY(-100px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+@keyframes slideTable {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@-moz-keyframes slideTable {
+	0% {
+		-moz-transform: translateY(300px);
+	}
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+@-webkit-keyframes slideTable {
+	0% {
+		-webkit-transform: translateY(300px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+@keyframes slideTable {
+	0% {
+		transform: translateY(300px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.quote{
+	font-family: serif;
+	display: inline-block;
+	width: 60%;
+	text-align: center;
+
+	-moz-animation-name: slideInfo;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+
+	-webkit-animation-name: slideInfo;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+
+	animation-name: slideInfo;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+
+
+.descriptionBox{
+	padding: 40px 10px 10px 10px;
+	font-family: serif;
+	display: inline-block;
+	width: 60%;
+	text-align: center;
+}
+
+.descriptionText{
+	display: inline-block;
+	width: 60%;
+	text-align: justify;
+}
+
+.tableContainer{
+	padding:40px 10px 10px 10px;
+	width: 60%;
+
+	text-align: center;
+	display: inline-block;
+
+	-moz-animation-name: slideTable;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-duration: 1s;
+
+
+	-webkit-animation-name: slideTable;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-duration: 1s;
+	
+
+	animation-name: slideTable;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.tableRowL{
+	display: inline-block;
+	font-family: serif;
+	width: 50%;
+	padding: 5px;
+	text-align: right;
+
+}
+
+.tableRowR{
+	display: inline-block;
+	font-family: serif;
+	width: 50%;
+	padding: 5px;
+	text-align: left;
+
+}

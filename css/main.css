@@ -1,105 +1,105 @@
 
-.titlebar{
-	margin: auto;
-	width: 80%;
-    padding: 200px 10px 10px 10px;
-    text-align: center;
-/*    border: 3px solid #73AD21;*/
+html, body{
+  height: 100vh;
+  width: 100vw;
+  
 }
 
 
+.titlebar{
+ margin: auto;
+ width: 80%;
+ padding: 200px 10px 10px 10px;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
 
+/* border: 3px solid #73AD21;*/
+}
 
 h1 {
-	font-family: sans-serif;	
-/*	border: 3px solid #73AD21;*/
-	display: inline-block;
+ display: inline-block;
+ font-family: sans-serif;	
+/* border: 3px solid #73AD21;*/
 }
 
-
 .proceedbar{
-	margin: auto;
-	padding: 100px 10px 10px 10px;
-    text-align: center;
-   /* border: 3px solid #73AD21;*/
-    width:15%;
+ margin: auto;
+ padding: 100px 10px 10px 10px;
+ text-align: center;
+ /*border: 3px solid #73AD21;*/
+ width:15%;
 }
 
 .option_bar{
-    margin: auto;
-    width: 75%;
+  margin: auto;
+  width: 75%;
 }
 
 ul{
 
-	text-align: center;
-	/*border: 3px solid #73AD21;*/
-	list-style-type: none;
-	padding: 0;
+ text-align: center;
+/* border: 3px solid #73AD21;*/
+ list-style-type: none;
+ padding: 0;
 }
 
 #player_list{
-    display: block;
-    opacity: 0;
-    float: right;
-    width: 12%;
-    font-family: serif;
+  display: block;
+  opacity: 0;
+  float: right;
+  width: 12%;
+  font-family: serif;
 }
 
 #rattus_image{
-    display: block;
-    float: left;
-    widows: 20%;
-    opacity: 0;
+  display: block;
+  float: left;
+  widows: 20%;
+  opacity: 0;
 }
 
 
 .player_entry{
-   display: block;
-   margin: 20px;
+ display: block;
+ margin: 20px;
+ color: black;
+ text-decoration: none;
+ transition: all 0.3s ease 0s;
 
 }
-
 
 .menu_entry{
-    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-    text-align: center;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  text-align: center;
 
-    display: inline-block;
-    width: 8%;
-    padding: 0;
-    transition: all 0.3s ease 0s;
-/*    border: 3px solid #73AD21;*/
+  display: inline-block;
+  width: 8%;
+  padding: 0;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+/*  border: 3px solid #73AD21;*/
 }
 
-
 .menu_entry:hover{
-    background: #666;
-    color: white;
+  background: #666;
+  color: white;
+  text-decoration: none;
 }
 
 .player_entry:hover{
-    background: #666;
-    color: white;
+  background: #666;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+li:hover, li:focus {
+  text-decoration: none;
 }
 
 
-/*body{
-     background-image: url("originalrattus.png");
-     background-repeat: no-repeat;
-     background-position: left bottom;
-}
-*/
 
-
-
-/*body:after {
-    content:"";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    border-left: 2px dotted #444; 
-}
-*/
